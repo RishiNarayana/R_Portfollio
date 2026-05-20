@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#0ea5a4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#g)" />
+  <g fill="#fff" font-family="Inter, Arial, sans-serif">
+    <text x="60" y="240" font-size="56" font-weight="700">Rishi Narayana</text>
+    <text x="60" y="320" font-size="36" opacity="0.95">AI/ML Developer — Deep Learning • NLP • Production Systems</text>
+  </g>
+</svg>
