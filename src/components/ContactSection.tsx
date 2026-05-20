@@ -63,7 +63,7 @@ const ContactSection = () => {
                 required
                 rows={4}
                 className="w-full rounded-lg border border-border bg-background px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary transition resize-none"
-                placeholder="Drop me a line..."
+                placeholder="Shoot a message..."
               />
               <ValidationError prefix="Message" field="message" errors={state.errors} />
             </div>
