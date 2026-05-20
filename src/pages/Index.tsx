@@ -1,0 +1,23 @@
+import Navbar from "@/components/Navbar";
+import HeroSection from "@/components/HeroSection";
+import AboutSection from "@/components/AboutSection";
+import ProjectsSection from "@/components/ProjectsSection";
+import ExperienceSection from "@/components/ExperienceSection";
+import SkillsSection from "@/components/SkillsSection";
+import ContactSection from "@/components/ContactSection";
+import Footer from "@/components/Footer";
+
+const Index = () => (
+  <div className="min-h-screen bg-background">
+    <Navbar />
+    <HeroSection />
+    <AboutSection />
+    <ProjectsSection />
+    <ExperienceSection />
+    <SkillsSection />
+    <ContactSection />
+    <Footer />
+  </div>
+);
+
+export default Index;

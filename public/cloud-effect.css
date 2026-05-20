@@ -1,0 +1,31 @@
+/* Cloud Effect Styles */
+#cloud-effect-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none; /* Let clicks pass through */
+    z-index: 9999; /* Ensure it is on top */
+}
+
+/* Adjust blend mode based on theme if possible */
+.dark #cloud-effect-container {
+    mix-blend-mode: screen;
+}
+
+#cloud-effect-container canvas {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    #cloud-effect-container {
+        display: none; /* Disable on mobile for performance */
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    #cloud-effect-container {
+        display: none;
+    }
+}
